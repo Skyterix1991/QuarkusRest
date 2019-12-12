@@ -11,7 +11,7 @@ import org.jboss.resteasy.annotations.jaxrs.PathParam;
 import pl.skyterix.quarkusrest.service.NameService;
 
 @Path("/name")
-public class GreetingResource {
+public class NameResource {
 
     @Inject
     NameService nameService;
